@@ -8,6 +8,18 @@
 - Appropriately labels the data set with descriptive variable names. 
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+It was done through the following steps:
+- getting the features list
+- obtaining test set data
+- obtaining training set data
+- merging data, subject and labels for both test and train sets
+- merging test and train sets
+- appropriately labeling the data set with descriptive variable names
+- filtering only the measurements on the mean and standard deviation for each measurement
+- naming the activities in the data set
+- averaging of each variable for each activity and each subject
+- writing the output file
+
 The initial dataset included the following files:
 
 - 'README.txt'
